@@ -170,7 +170,6 @@ class CustomTimelapse(Script):
                             # Increment the bitch if it's true
                             myScreenshot.save(r'C:\Andrew\image' + str(p) + '.png')
                             p += 1
-                            # I love Andrew so much
 
                             gcode_to_append += trigger_command + " ;Snap Photo\n"
 
